@@ -76,28 +76,28 @@
       {
          "id":6,
          "albumId":1,
-         "name":"",
+         "name":"Chairs",
          "url":"https://images.unsplash.com/photo-1473186578172-c141e6798cf4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f522231f2b7d4e6d0684b700abbec7e3&auto=format&fit=crop&w=1566&q=80"
       },
 
       {
          "id":7,
          "albumId":1,
-         "name":"",
-         "url":""
+         "name":"Hidden Shipwreck",
+         "url":"https://images.unsplash.com/photo-1498712964741-5d33ab9e5017?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f3759408d8a55e1dc6e3e1f43f02a0d&auto=format&fit=crop&w=800&q=60"
       },
 
       {
          "id":8,
          "albumId":1,
-         "name":"",
+         "name":"Sunset",
          "url":"https://images.unsplash.com/photo-1506755148572-8a067a576538?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4240f3f26f475eb8389ac8923d51c0bd&auto=format&fit=crop&w=800&q=60"
       },
 
       {
          "id":9,
          "albumId":1,
-         "name":"",
+         "name":"Palm Trees",
          "url":"https://images.unsplash.com/photo-1471079072351-7226a2c56e84?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=773f0b6ce430d60e321a6690d2bfe3e2&auto=format&fit=crop&w=800&q=60"
       },
 
@@ -139,28 +139,28 @@
       {
          "id":15,
          "albumId":2,
-         "name":"",
+         "name":"Projects",
          "url":"https://images.unsplash.com/photo-1483090858014-15e35bb60ea5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=30103cd1fe3ff7fe3f78446cdd87e901&auto=format&fit=crop&w=666&q=80"
       },
 
       {
          "id":16,
          "albumId":2,
-         "name":"",
+         "name":"Skyscrapers",
          "url":"https://images.unsplash.com/photo-1461253205884-5aa82520ee48?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de68123b0f1aba4e5c3996613e843534&auto=format&fit=crop&w=800&q=60"
       },
 
       {
          "id":17,
          "albumId":2,
-         "name":"",
+         "name":"Graffiti",
          "url":"https://images.unsplash.com/photo-1493118679111-17759f85f8ff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=50f09716ffbdc968a1942c8bd88b07e0&auto=format&fit=crop&w=800&q=60"
       },
 
       {
          "id":18,
          "albumId":2,
-         "name":"",
+         "name":"Snake",
          "url":"https://images.unsplash.com/photo-1501179426689-0c2bc49a6776?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f3a9cc1d2d68267584af44141528b14d&auto=format&fit=crop&w=800&q=60"
       },
 
