@@ -1,33 +1,21 @@
 import React, { Component } from 'react'
+import { getAlbums } from '../actions/albumActions'
 import {Link} from 'react-router-dom'
-import axios from 'axios'
+import {connect} from 'react-redux'
 
 class Home extends Component {
-	state = {
-		albums: [],
-		id: '',
-		name: '',
-		cover: ''
-	}
 
 	componentDidMount() {
-		axios.get('http://localhost:3001/albums').then(resp => {
-		console.log(resp.data)
-			this.setState({
-				albums: resp.data,
-				id: resp.data.id,
-				name: resp.data.name,
-				cover: resp.data.cover
-			})
-		})
+		getAlbums()
 	}
 
  render() {
    return (
- 			<div>
+ 			<div className="homeContainer">
+ 				<Link to={"/postAlbum"}> Post New Album </Link>
 				<div className='title'>Austin's Photo Albums</div>
-					<div className='homeContainer'>
-					{this.state.albums.map((data, i) => (
+					<div className='albumsContainer'>
+					{this.props.albums.map((data, i) => (
 						<Link to={`/album/${data.id}`}>
 							<div className='albumContainer'>
 								<img className='albumCovers' src={data.cover} alt=''/>
@@ -41,4 +29,10 @@ class Home extends Component {
  	}
 }
 
-export default Home
+function mapStateToProps(appState) {
+	return {
+		albums: appState.albums
+	}
+}
+
+export default connect(mapStateToProps)(Home)
